@@ -44,6 +44,7 @@ public class MainActivity extends AppCompatActivity {
     //Double - Float ondalıklı sayı
         double z = 5.0;
         double a = 11.0;
+        a=13.0;
     System.out.println(a/z);
 
     float myFloat = 10.0f;
@@ -57,10 +58,12 @@ public class MainActivity extends AppCompatActivity {
     //String metin veri tipi
     String name = "James";
     String surname = "Hetfield";
+    name = "Hers";
     String fullname = name + surname;
 
     System.out.println(surname);
     System.out.println(fullname);
+    System.out.println(name + " "+surname)
 
     //Boolean  doğru yada yanlış true or false
      boolean isAlive = true;
