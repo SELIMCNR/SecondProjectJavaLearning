@@ -230,7 +230,7 @@ public class MainActivity extends AppCompatActivity {
         int xFor = myNumbers[0] / 3 + 5;
         //System.out.println(xFor);
 
-        // i 0 'a eşit i değeri myNumbers dizisinin.boyutundan küçük olduğu sürece işlem yap ve i'yi artır
+        // i 0'a eşit i değeri myNumbers dizisinin.boyutundan küçük olduğu sürece işlem yap ve i'yi artır
         for(int i = 0; i<myNumbers.length;i++){
             //XFor1 değişkenine ekle = dizi değerlerini 3 e bölüp 5ile çarparak
             int xFor1 = myNumbers[i] / 3 * 5;
