@@ -250,7 +250,7 @@ public class MainActivity extends AppCompatActivity {
         int j = 0;
         while (j<10){
             int n =j*10;
-            System.out.println("Test");
+            System.out.println("Test"+n);
             j++;
         }
 
