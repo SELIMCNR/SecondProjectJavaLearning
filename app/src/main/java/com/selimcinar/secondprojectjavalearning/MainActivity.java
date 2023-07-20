@@ -249,6 +249,7 @@ public class MainActivity extends AppCompatActivity {
         //While
         int j = 0;
         while (j<10){
+            int n =j*10;
             System.out.println("Test");
             j++;
         }
