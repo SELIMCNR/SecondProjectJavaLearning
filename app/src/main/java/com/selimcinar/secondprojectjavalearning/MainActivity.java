@@ -18,11 +18,12 @@ public class MainActivity extends AppCompatActivity {
     System.out.println(5*2);
     System.out.println("Hello world");
 
+
    //Java Öğrenme Projesi
         //Variables
         // Değişkenler
     System.out.println(10*20);
-
+    System.out.println(50*50);
     //Int 32 bit , long 64 bit,float 32 bit , double 64 bit
     //Integer tam sayı
 
@@ -31,14 +32,17 @@ public class MainActivity extends AppCompatActivity {
     System.out.println(10*age);
     System.out.println(age/5);
 
+
     int x = 5;
     int y= 11;
     Integer zn=50; //integer böylede tanımlanabilir hash mapde işlendi
     System.out.println(y/x);
 
+
     //Long tamsayı
         long myLong = 10;
         System.out.println(myLong /5);
+
 
 
     //Double - Float ondalıklı sayı
@@ -46,18 +50,25 @@ public class MainActivity extends AppCompatActivity {
         double a = 11.0;
     System.out.println(a/z);
 
+
+
     float myFloat = 10.0f;
     System.out.println(myFloat/z);
+
+
 
     //Daire çevresi bulma
     double pi = 3.14;
     int r = 5;
     System.out.println(2*r*pi);
 
+
     //String metin veri tipi
     String name = "James";
     String surname = "Hetfield";
     String fullname = name + surname;
+
+
 
     System.out.println(surname);
     System.out.println(fullname);
@@ -66,6 +77,11 @@ public class MainActivity extends AppCompatActivity {
      boolean isAlive = true;
      isAlive = false;
      System.out.println(isAlive);
+
+     boolean isAlive2=false;
+     isAlive2 = false;
+     System.out.println(isAlive2);
+
 
      //Final sabit değişken değeri sonradan değiştirilemez
      final int myInteger = 5;
